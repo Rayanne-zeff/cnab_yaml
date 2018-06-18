@@ -63,11 +63,11 @@ forma_cadastro_titulo:
 tipo_documento:
   pos: [60,60]
   picture: 'X(1)'
-  default: ''
+  default: '1'
 identificacao_emissao_bloqueto:
   pos: [61,61]
   picture: '9(1)'
-  default: 0
+  default: 4
 identificacao_distribuicao:
   pos: [62,62]
   picture: 'X(1)'
