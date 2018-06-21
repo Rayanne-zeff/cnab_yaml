@@ -31,7 +31,7 @@ tipo_inscricao:
   default: 0
 numero_inscricao:
   pos: [19,33]
-  picture: 'X(15)'
+  picture: '9(15)'
 sacador_nome:
   pos: [34,73]
   picture: 'X(40)'
