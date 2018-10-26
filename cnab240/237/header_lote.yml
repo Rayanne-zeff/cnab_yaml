@@ -1,5 +1,76 @@
-agencia_mais_cedente_dv:
-  # Padrão: deixa em branco
-  pos: [73, 73]
-  picture: 'X(1)'
-  default: ''
+    codigo_banco:
+      pos: [1,3]
+      picture: '9(3)'
+      default: 237
+    lote_servico:
+      pos: [4,7]
+      picture: '9(4)'
+    tipo_registro:
+      pos: [8,8]
+      picture: '9(1)'
+      default: 1
+    tipo_operacao:
+      pos: [9,9]
+      picture: 'X(1)'
+    tipo_servico:
+      pos: [10,11]
+      picture: '9(2)'
+      default: 1
+    exclusivo_febraban_01:
+      pos: [12,13]
+      picture: 'X(2)'
+      default: ''
+    versao_layout:
+      pos: [14,16]
+      picture: '9(3)'
+      default: 042
+    exclusivo_febraban_02:
+      pos: [17,17]
+      picture: 'X(1)'
+      default: ''
+    codigo_inscricao:
+      pos: [18,18]
+      picture: '9(1)'
+    numero_inscricao:
+      pos: [19,33]
+      picture: '9(15)'
+    codigo_convenio:
+      pos: [34,53]
+      picture: 'X(20)'
+    agencia:
+      pos: [54,58]
+      picture: '9(5)'
+    agencia_dv:
+      pos: [59,59]
+      picture: 'X(1)'
+    codigo_cedente:
+      pos: [60,71]
+      picture: '9(12)'
+    codigo_cedente_dv:
+      pos: [72,72]
+      picture: 'X(1)'
+    agencia_mais_cedente_dv:
+      pos: [73,73]
+      picture: 'X(1)'
+    nome_empresa:
+      pos: [74,103]
+      picture: 'X(30)'
+      default: ''
+    mensagem_01:
+      pos: [104,143]
+      picture: 'X(40)'
+      default: ''
+    mensagem_02:
+      pos: [144,183]
+      picture: 'X(40)'
+      default: ''
+    numero_sequencial_arquivo:
+      pos: [184,191]
+      picture: '9(8)'
+    data_geracao:
+      pos: [192,199]
+      picture: '9(8)'
+    exclusivo_febraban_03:
+      pos: [208,240]
+      picture: 'X(33)'
+      default: ''
