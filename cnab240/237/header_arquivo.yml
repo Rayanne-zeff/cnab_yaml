@@ -95,7 +95,7 @@ codigo_cedente_dv:
   # O Dígito Verificador calculado para o Código de Cedente acima é 4
   # Obs.: se o resultado da subtração for maior que 9 (nove) o dígito será 0 (zero)
   pos: [71, 71]
-  picture: '9(1)'
+  picture: 'X(1)'
 
 agencia_mais_cedente_dv:
   # Dígito Verificador da Agência / Código do Cedente

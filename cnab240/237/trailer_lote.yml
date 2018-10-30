@@ -30,6 +30,7 @@ qtde_titulo_cobranca_simples:
 valor_total_titulo_simples:
   pos: [30, 46]
   picture: '9(15)V9(2)'
+  default: 0
 
 qtde_titulo_cobranca_vinculada:
   pos: [47, 52]

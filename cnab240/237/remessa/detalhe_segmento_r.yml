@@ -103,10 +103,17 @@
         pos: [230,230]
         picture: 'X(1)'
         default: ''
+      #Aviso para Débito Automático
+      #Código adotado pela FEBRABAN para identificação da emissão do aviso de débito
+      #automático em conta corrente.
+      #'01' = Emite o Aviso com o Endereço Informado no Arquivo Remessa
+      #'02' = Não Emite Aviso ao Pagador
+      #'03' = Emite Aviso com o Endereço Constante do Cadastro do Banco
+      #Para códigos diferentes de '01', '02' e '03' seguir a regra do '03'.
       aviso_debito_automatico:
         pos: [231,231]
         picture: '9(1)'
-        default: 0
+        default: 2
       exclusivo_febraban_03:
         pos: [232,240]
         picture: 'X(9)'

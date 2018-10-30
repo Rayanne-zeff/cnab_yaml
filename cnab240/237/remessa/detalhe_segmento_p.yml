@@ -125,8 +125,7 @@
         picture: '9(1)'
       dias_baixa_devolucao:
         pos: [225,227]
-        picture: 'X(3)'
-        default: '0'
+        picture: '9(3)'
       codigo_moeda:
         pos: [228,229]
         picture: '9(2)'
