@@ -57,7 +57,7 @@
       codigo_ocorrencia:
         pos: [154,157]
         picture: '9(4)'
-      data_ocorrencia:
+      data_ocorrencia_sacado:
         pos: [158,165]
         picture: '9(8)'
       valor_ocorrencia:
