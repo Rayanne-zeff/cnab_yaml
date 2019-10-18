@@ -90,6 +90,7 @@ codigo_convenio:
   # D = Dígito Verificador
   pos: [34, 53]
   picture: 'X(20)'
+  default: ''
 
 agencia:
   # Código da Agência mantenedora da conta, fornecido pela CAIXA.
