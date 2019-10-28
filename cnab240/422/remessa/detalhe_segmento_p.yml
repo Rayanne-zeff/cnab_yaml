@@ -134,13 +134,6 @@ agencia_mais_cedente_dv:
   pos: [37,37]
   picture: '9(1)'
 
-uso_exclusivo_banco_01:
-  # Uso Exclusivo CAIXA
-  # Deixar em branco
-  pos: [38,46]
-  picture: 'X(9)'
-  default: ''
-
 nosso_numero:
   # Identificação do Título no Banco
   # Número adotado pelo Banco Cedente para identificar o Título.
@@ -151,8 +144,8 @@ nosso_numero:
   # relacionamento.
   # Obs: Nosso Número Sem Registro com 16 posições (arquivo Retorno) – posições 106 a 130 do
   # Segmento T (ver Nota G072).
-  pos: [47,57]
-  picture: '9(11)'
+  pos: [38,57]
+  picture: '9(20)'
 
 codigo_carteira:
   # Código da Carteira
