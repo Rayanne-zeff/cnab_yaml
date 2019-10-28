@@ -49,9 +49,14 @@ codigo_convenio:
   # OOO = Operação
   # CCCCCCCC = Número da Conta Corrente ou seqüencial
   # D = Dígito Verificador
-  pos: [33, 52]
+  pos: [33, 48]
   picture: 'X(20)'
   default: ''
+
+uso_exclusivo_banco_01:
+  # Padrão: deixar em branco
+  pos: [49, 52]
+  picture: 'X(4)'
 
 agencia:
   # Código da Agência mantenedora da conta, fornecido pela CAIXA.
