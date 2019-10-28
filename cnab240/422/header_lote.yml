@@ -90,6 +90,7 @@ codigo_convenio:
   # D = Dígito Verificador
   pos: [34, 49]
   picture: 'X(16)'
+  default: ''
 
 uso_exclusivo_banco:
   # Preenchar em branco
