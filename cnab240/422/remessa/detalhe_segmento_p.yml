@@ -133,6 +133,7 @@ agencia_mais_cedente_dv:
   # Obs.: se o resultado da subtração for maior que 9 (nove) o dígito será 0 (zero)
   pos: [37,37]
   picture: '9(1)'
+  defautl: '0'
 
 nosso_numero:
   # Identificação do Título no Banco
@@ -152,6 +153,7 @@ codigo_carteira:
   # Código adotado pela FEBRABAN, para identificar a característica dos títulos dentro das modalidades de
   # cobrança existentes no banco.
   # ‘1’ = Cobrança Simples
+  # ‘2’ = ?FEBRABAN?
   # ‘3’ = Cobrança Caucionada
   # ‘4’ = Cobrança Descontada
   # O Código ‘1’ Cobrança Simples deve ser obrigatoriamente informado nas modalidades Cobrança Simples

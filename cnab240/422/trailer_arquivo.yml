@@ -30,8 +30,8 @@ qtde_registros:
 
 uso_exclusivo_febraban02:
   pos: [30, 35]
-  picture: 'X(6)'
-  default: ''
+  picture: '9(6)'
+  default: '000000'
 
 uso_exclusivo_febraban_03:
   pos: [36, 240]
