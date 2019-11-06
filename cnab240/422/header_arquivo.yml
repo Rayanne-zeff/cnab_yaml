@@ -7,6 +7,7 @@ codigo_banco:
   # Caixa = 104, Santander = 033
   pos: [1, 3]
   picture: '9(3)'
+  default: '422'
 
 lote_servico:
   # Se registro for Header do Arquivo = '0000' 
@@ -33,6 +34,7 @@ codigo_inscricao:
   # '2' = CGC / CNPJ
   pos: [18, 18]
   picture: '9(1)'
+  default: '2'
 
 numero_inscricao:
   # Informar o número de inscrição da Empresa (CNPJ) ou Pessoa Física (CPF).
@@ -165,6 +167,7 @@ hora_geracao:
   pos: [152, 157]
   picture: '9(6)'
   date_format: '%H%M%S'
+  default: '000000'
 
 numero_sequencial_arquivo:
   # Número seqüencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a
