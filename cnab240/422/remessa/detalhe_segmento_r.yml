@@ -53,8 +53,8 @@ valor_desconto_03:
   default: 0
 codigo_multa:
   pos: [66,66]
-  picture: '9(1)'
-  default: 0
+  picture: 'X(1)'
+  default: ''
 data_multa:
   pos: [67,74]
   picture: '9(8)'

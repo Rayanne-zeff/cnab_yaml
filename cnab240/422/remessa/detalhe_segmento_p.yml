@@ -145,8 +145,14 @@ nosso_numero:
   # relacionamento.
   # Obs: Nosso Número Sem Registro com 16 posições (arquivo Retorno) – posições 106 a 130 do
   # Segmento T (ver Nota G072).
-  pos: [38,57]
-  picture: '9(20)'
+  pos: [38,46]
+  picture: '9(9)'
+
+uso_exclusivo_banco_04:
+  # Deixar em branco
+  pos: [47,57]
+  picture: 'X(11)'
+  default: ''
 
 codigo_carteira:
   # Código da Carteira
