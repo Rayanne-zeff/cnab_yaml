@@ -299,6 +299,7 @@ codigo_juros_mora:
   # ‘3’ = Isento
   pos: [118,118]
   picture: 'X(1)'
+  default: '3'
 
 data_juros_mora:
   pos: [119,126]
