@@ -8,6 +8,19 @@ agencia_mais_cedente_dv:
   picture: 'X(1)'
   default: ''
 
+nosso_numero:
+  # Identificação do Título no Banco
+  # Número adotado pelo Banco Cedente para identificar o Título.
+  # Para código de movimento igual a '01' (Entrada de Títulos), caso esteja preenchido com zeros, a
+  # numeração será atribuída pela CAIXA.
+  # Para montagem do Nosso Número, quando a emissão do título é feita pelo cliente (carteiras
+  # Cobrança Rápida, Sem Registro e SAD), solicitar especificação à Agência CAIXA de
+  # relacionamento.
+  # Obs: Nosso Número Sem Registro com 16 posições (arquivo Retorno) – posições 106 a 130 do
+  # Segmento T (ver Nota G072).
+  pos: [38,57]
+  picture: 'X(20)'
+
 tipo_documento:
   # Por padrão em branco no SICOOB
   pos: [60,60]
@@ -31,15 +44,13 @@ agencia_cobradora_dv:
   picture: 'X(1)'
   default: '0'
 
-nosso_numero:
-  # Identificação do Título no Banco
-  # Número adotado pelo Banco Cedente para identificar o Título.
-  # Para código de movimento igual a '01' (Entrada de Títulos), caso esteja preenchido com zeros, a
-  # numeração será atribuída pela CAIXA.
-  # Para montagem do Nosso Número, quando a emissão do título é feita pelo cliente (carteiras
-  # Cobrança Rápida, Sem Registro e SAD), solicitar especificação à Agência CAIXA de
-  # relacionamento.
-  # Obs: Nosso Número Sem Registro com 16 posições (arquivo Retorno) – posições 106 a 130 do
-  # Segmento T (ver Nota G072).
-  pos: [38,57]
-  picture: 'X(20)'
+codigo_juros_mora:
+  # ‘0’ = Isento
+  # ‘1’ = Valor por Dia
+  # ‘2’ = Taxa Mensal
+  pos: [118,118]
+  picture: 'X(1)'
+
+prazo_baixa:
+  pos: [225, 227]
+  picture: 'X(3)'
