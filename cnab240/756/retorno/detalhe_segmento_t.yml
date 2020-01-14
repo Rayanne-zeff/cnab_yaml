@@ -3,6 +3,10 @@ agencia_dv:
   picture: 'X(1)'
   default: ''
 
+nosso_numero:
+  pos: [37,46]
+  picture: '9(10)'
+
 numero_contrato:
   #Nº do Contr. da Operação de Crédito: Número adotado pela Empresa Beneficiária para identificação do número do contrato.
   pos: [189,198]
