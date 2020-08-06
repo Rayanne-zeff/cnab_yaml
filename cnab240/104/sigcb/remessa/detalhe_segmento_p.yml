@@ -4,12 +4,21 @@ agencia_dv:
   picture: 'X(1)'
 
 codigo_cedente:
-  pos: [24,29]
-  picture: '9(6)'
+  # Código do Cedente
+  # Remessa: Código do Convênio no Banco (sem operação), tamanho: 12 posições, no formato
+  # 0000CCCCCCCC.
+  # Retorno: Código do Convênio no Banco (com operação), tamanho: 12 posições, no formato
+  # 0OOOCCCCCCCC.
+  # Onde:
+  # 0 = zero
+  # OOO = Operação
+  # CCCCCCCC = Cedente
+  pos: [24,35]
+  picture: '9(12)'
 
 uso_exclusivo_caixa_01:
-  pos: [30,37]
-  picture: '9(8)'
+  pos: [36,37]
+  picture: '9(1)'
   default: '0'
 
 uso_exclusivo_caixa_02:
