@@ -36,12 +36,12 @@ agencia_dv:
   picture: '9(1)'
 
 codigo_cedente:
-  pos: [60, 65]
-  picture: '9(6)'
+  pos: [60, 71]
+  picture: '9(12)'
 
 codigo_modelo:
-  pos: [66, 72]
-  picture: '9(7)'
+  pos: [72, 72]
+  picture: '9(1)'
   default: '0'
 
 uso_exclusivo_banco_02:

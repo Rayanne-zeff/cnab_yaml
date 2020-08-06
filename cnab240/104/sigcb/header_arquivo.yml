@@ -25,12 +25,12 @@ agencia_dv:
   picture: '9(1)'
 
 codigo_cedente:
-  pos: [59, 64]
-  picture: '9(6)'
+  pos: [59, 70]
+  picture: '9(12)'
 
 uso_exclusivo_caixa_02:
-  pos: [65, 71]
-  picture: '9(7)'
+  pos: [71, 71]
+  picture: '9(1)'
   default: '0'
 
 uso_exclusivo_caixa_03:
