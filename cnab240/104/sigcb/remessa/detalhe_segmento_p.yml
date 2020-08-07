@@ -17,7 +17,7 @@ codigo_cedente:
   picture: '9(12)'
 
 uso_exclusivo_caixa_01:
-  pos: [36,37]
+  pos: [37,37]
   picture: '9(1)'
   default: '0'
 

@@ -8,12 +8,6 @@ uso_exclusivo_caixa_01:
   picture: '9(20)'
   default: '0'
 
-uso_exclusivo_banco_01:
-  # Padrão: deixar em branco
-  pos: [65, 71]
-  picture: 'X(7)'
-  default: ''
-
 agencia:
   # Código da Agência mantenedora da conta, fornecido pela CAIXA.
   pos: [53, 57]
