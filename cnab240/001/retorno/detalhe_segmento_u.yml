@@ -51,7 +51,7 @@
       data_ocorrencia:
         pos: [138,145]
         picture: '9(8)'
-      data_efetivacao_credito:
+      data_credito:
         pos: [146,153]
         picture: '9(8)'
       codigo_ocorrencia:
